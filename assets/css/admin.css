@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    background-image: url(/assets/img/uma-fatia-de-bolo-de-chocolate-com-canela.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+    border: 2px solid rgb(212, 164, 75);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgb(218, 168, 75);
+}
+
+div h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+input {
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    height: 50px;
+    width: 260px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: rgb(214, 217, 15);
+}
+
+button:hover {
+    cursor: pointer;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: chocolate;
+}
+
+a:hover {
+    text-decoration: underline;
+}
