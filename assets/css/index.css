@@ -25,6 +25,9 @@ header {
     background-color: rgb(3, 46, 91);
     color: white;
     padding: 30px;
+    border: 5px solid rgb(5, 4, 4);
+    display: flex;
+
 }
 
 header h1 {
@@ -100,4 +103,14 @@ footer {
     color: aliceblue;
     text-align: center;
     padding: 20px;
+}
+
+.logo img {
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.logo {
+    width: 0;
 }
