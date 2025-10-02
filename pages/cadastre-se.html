@@ -29,11 +29,16 @@
         <input type="password" id="password" placeholder="Senha">
         <br><br>
         <label for=""></label>
-        <input type="password" id="password" placeholder="Confirmar">
+        <input type="password" id="confirma-password" placeholder="Confirmar">
         <br><br>
-        <button>Cadastrar-se</button>
+
+        <input type="checkbox" id="exibir-senha" onclick="toggleSenha()"> Exibir senhas
         <br><br>
-        <a href="cadastre-se.html">Voltar para Login</a>
+
+        <button onclick="cadastrarUsuario()">Cadastrar-se</button>
+        <br><br>
+        <a href="admin.html">Voltar para login</a>
     </div>
 </body>
+<script src="/assets/js/cadastre-se.js"></script>
 </html>
